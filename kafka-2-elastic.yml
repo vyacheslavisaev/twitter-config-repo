@@ -1,0 +1,21 @@
+kafka-config:
+  bootstrap-servers: 127.0.0.1:29093
+#  bootstrap-servers: host.docker.internal:29094
+
+kafka-consumer-config:
+  key-deserializer: StringDeserializer.class
+  value-deserializer: StringDeserializer.class
+  consumer-group-id: twitter-to-elastic
+  autoOffsetReset: earliest
+  specificAvroReaderKey:
+  specificAvroReader:
+  sessionTimeoutMs:
+  heartbeatIntervalMs:
+  maxPollIntervalMs:
+  maxPollRecords:
+  maxPartitionFetchByteDefault:
+  maxPartitionFetchBytesBoostFactor:
+  autoStartup: false
+  concurrencyLevel: 3
+  batchListener: true
+  pollTimeoutMs: 150
