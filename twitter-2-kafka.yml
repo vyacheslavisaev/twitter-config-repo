@@ -25,8 +25,8 @@ schema-registry:
   url: schema
 
 kafka-config:
-  #    bootstrap-servers: 127.0.0.1:29093
-  bootstrap-servers: host.docker.internal:29094
+  bootstrap-servers: 127.0.0.1:29093
+#  bootstrap-servers: host.docker.internal:29094
 
 kafka-admin-config:
   topic-names-to-create:
