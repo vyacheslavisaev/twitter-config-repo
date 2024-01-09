@@ -1,3 +1,6 @@
+kafka-to-elastic-service:
+  kafka-topic-name: twitter-incoming
+
 kafka-config:
   bootstrap-servers: 127.0.0.1:29093
 #  bootstrap-servers: host.docker.internal:29094
