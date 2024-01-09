@@ -6,8 +6,8 @@ kafka-config:
 #  bootstrap-servers: host.docker.internal:29094
 
 kafka-consumer-config:
-  key-serializer-class: org.apache.kafka.common.serialization.StringSerializer.class
-  value-serializer-class: org.apache.kafka.common.serialization.StringSerializer.class
+  key-serializer-class: org.apache.kafka.common.serialization.StringSerializer
+  value-serializer-class: org.apache.kafka.common.serialization.StringSerializer
   consumer-group-id: twitter-to-elastic
   autoOffsetReset: earliest
   specificAvroReaderKey:
