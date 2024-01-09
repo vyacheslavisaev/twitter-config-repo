@@ -18,7 +18,7 @@ kafka-consumer-config:
   maxPollRecords:
   maxPartitionFetchByteDefault:
   maxPartitionFetchBytesBoostFactor:
-  autoStartup: false
+  autoStartup: true
   concurrencyLevel: 3
   batchListener: true
   pollTimeoutMs: 150
