@@ -1,5 +1,5 @@
 kafka-to-elastic-service:
-  kafka-topic-name: twitter-incoming
+  kafka-topics-list: twitter-incoming
 
 kafka-config:
   bootstrap-servers: 127.0.0.1:29093
