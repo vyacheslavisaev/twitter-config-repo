@@ -26,5 +26,6 @@ kafka-consumer-config:
 elastic-config:
   index-name: twitter-index
   connect-url: localhost:9200
-  connect-timeout-ms:
-  socket-timeout-ms:
+  connect-timeout-ms: 6000
+  socket-timeout-ms: 30000
+  use-repository: false
