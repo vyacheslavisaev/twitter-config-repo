@@ -1,7 +1,12 @@
+elastic-query-service:
+  version: v1
+
 server:
   port: 8183
+  servlet:
+    context-path: /elastic-query-service
 
-elastic-query-service:
+elastic-query-client:
   text-field: text
 
 elastic-config:
